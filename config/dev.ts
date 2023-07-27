@@ -1,10 +1,8 @@
-import type { UserConfigExport } from "@tarojs/cli";
-
 export default {
   logger: {
     quiet: false,
-    stats: true
+    stats: true,
   },
   mini: {},
-  h5: {}
-} satisfies UserConfigExport
+  h5: {},
+};

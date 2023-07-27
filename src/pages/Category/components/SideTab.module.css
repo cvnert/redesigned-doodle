@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+[data-prefers-color='dark'] .container {
+  background-color: unset;
+}
+.side {
+  flex: none;
+  height: 100vh;
+}
+.main {
+  flex: auto;
+}
+.content {
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: #cccccc;
+}
+.content.active {
+  display: flex;
+}
